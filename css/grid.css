@@ -1,0 +1,6 @@
+.container {
+    width: 100%;
+    max-width: 1246px;   /*aqui era 1216px mas somámos 30px porque demos + 30px no padding: 15px para a esquerda + 15px para a direita*/ 
+    margin: 0 auto;
+    padding: 0px 15px;
+}
