@@ -17,6 +17,10 @@ header nav {
   align-items: center;
 }
 
+header .menu-mobile {
+  display: none;
+}
+
 header nav ul {
   display: flex;
   margin-right: 3.2rem;
@@ -33,3 +37,63 @@ header nav ul li:first-child {
 header nav .btn-primary {
   padding: 0.9rem 3.4rem;
 }
+
+.s-hero {
+  padding: 7.2rem 0;
+}
+
+.s-hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-hero .text {
+  width: 100%;
+  max-width: 64.0rem;
+}
+
+.s-hero .text h1 {
+  margin-bottom: 2.0rem;
+}
+
+.s-hero .text p {
+  margin-bottom: 5.6rem;
+  max-width: 48.8rem;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--gray-colors-300);
+}
+
+.s-hero .image {
+  width: 100%;
+  max-width: 48.8rem;
+  height: 49.6rem;
+  background-color: var(--gray-colors-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-hero .text .btn-primary {
+  padding: 1.7rem 3.7rem;
+}
+
+
+
+/* section .container {
+  display: flex;
+  align-items: center;
+  margin-top: 46px;
+  margin-bottom: 98px;
+}
+
+section .text h1 {
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+section .text p {
+  width: 480px;
+  margin-bottom: 56px;
+} */
