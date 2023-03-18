@@ -38,6 +38,8 @@ header nav .btn-primary {
   padding: 0.9rem 3.4rem;
 }
 
+/*--------------------Section .s-hero------------------- */
+
 .s-hero {
   padding: 7.2rem 0;
 }
@@ -78,6 +80,8 @@ header nav .btn-primary {
 .s-hero .text .btn-primary {
   padding: 1.7rem 3.7rem;
 }
+
+/*--------------------Section .s-card-featured------------------- */
 
 .s-card-featured {
   background-color: var(--gray-colors-100);
@@ -149,3 +153,45 @@ header nav .btn-primary {
 .s-card-featured .all-cards .card.white p {
   color: var(--gray-colors-300);
 }
+
+
+/*--------------------Section .s-card-featured------------------- */
+
+.s-card-smal {
+  background-color: var(--gray-colors-100);
+  padding-bottom: 12rem;
+}
+
+.s-card-smal .s-card-smal-header .info p {
+  color: var(--white-colors-text);
+  margin-top: 0.8rem;
+}
+
+.s-card-smal .s-card-smal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-card-smal .s-card-smal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.s-card-smal .s-card-smal-footer .img-small-hero {
+  width: 17.6rem;
+  height: 11.2rem;
+  background-color: rgb(28, 29, 31, 0.5);
+  margin-top: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-card-smal .s-card-smal-footer .img-small-hero img {
+  width: 100%;
+  max-width: 7.2rem;
+  height: 4rem;
+}
+
+
