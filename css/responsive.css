@@ -2,6 +2,18 @@
   .s-hero .text {
     max-width: 49%;
   }
+  .s-card-featured .all-cards {
+    width: 100%;
+  }
+  .s-card-featured .all-cards .card {
+    width: 32%;
+  }
+    .all-image {
+    gap: 2rem 2%;
+  }
+  .s-card-featured .second-area .all-image .image {
+    width: 23.5%;
+  }
 }
 
 @media(max-width: 991px) {
@@ -35,7 +47,10 @@
 }
 
 @media(max-width: 600px) {
-   
+  .s-card-featured .second-area .top {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media(max-width: 480px) {
